@@ -3,12 +3,10 @@ import java.util.ArrayList;
 public class Prime {
     public static void main(String[] args) {
         int start = 3; 
-        int end = 1000000;
+        int end = 5000000;
 
         ArrayList<Integer> primes = new ArrayList<>();
         primes.add(2);
-
-
 
         for (int i = start; i <= end; i += 2) {
 
